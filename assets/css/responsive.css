@@ -1,0 +1,168 @@
+/* Media Queries */
+@media screen and (max-width: 980px) {
+/*Header Styles*/   
+    header {
+        width: 100%;
+        margin: -2em -2em -1em -.35em;
+        padding: 2em;
+    }
+
+    #name {
+        float: left;
+        padding: .5em 1.5em .5em .5em;
+        width: 29%;
+        margin: 0 0 0 2em;
+    }
+
+/* Navigation */
+    nav {
+       text-align: center;
+       margin: .5em 0 0 -2em;
+    } 
+
+/* Layout Styles */
+    #info-box {
+        float: left;
+        width: 50%;
+        margin: 2em 2em 2em 7em;
+    }   
+
+    #connect-box {
+        float: left;
+        width: 25%;
+        margin: 2em;
+    }
+
+    #profile-image {
+        float: none;
+        max-width: 100%;
+        max-height: 100%;
+        margin: .5em .5em .25em 0;
+    }
+
+    .social-media li {
+        float: left;
+        display: inline-block;
+        padding: .5em;
+        margin: 0;
+    }
+/* Portfolio */
+
+    .gallery-image {
+        float: none;
+        width: 100%;
+    }
+
+    .gallery-image img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+/* Header Styles */ 
+    header {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: -2em 0 -1em 0;
+        height: auto;
+        padding: 2em;
+    }
+
+    #name {
+        float: left;
+        padding: 2%;
+        width: 40%;
+        margin: 0 auto;
+    }
+/* Navigation */
+    nav { 
+       float: right;
+       font-size: .7em;
+       margin: 0;
+
+    }
+    nav li {
+        padding: .1em .4em;
+        margin: -1.25em .75em 0 -.25em;
+    }
+
+
+/* Layout Styles */
+    #info-box, #connect-box {
+        float: left;
+        width: 90%;
+        margin: 2em;
+    }
+
+    #profile-image {
+        float: left;
+        max-width: 25em;
+        max-height: 25em;
+        margin: .5em 1em 0 .5em;
+    }
+    /* Portfolio */
+
+    .gallery-image {
+        float: left;
+        width: 50%;
+        padding: 1em;
+    }
+
+    .gallery-image img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+/* Header */
+    header {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        height: auto;
+        padding: 0;
+    }
+
+    #name {
+        float: left;
+        padding: .5em 1.5em .5em .5em;
+        width: 100%;
+        margin: 0;
+    }
+/* Navigation */
+    nav {
+       float: left;
+       font-size: .8em;
+       padding: 2em;
+       margin: 0 0 -2.5em 3em;
+    }
+
+    nav li {
+        padding: .25em .75em;
+        margin: -1.25em .75em 1em -.25em;
+    }
+/* Layout Styles */
+    #info-box, #connect-box {
+        float: left;
+        width: 90%;
+        margin: 2em;
+    }   
+/* Profile Image */
+    #profile-image {
+        float: none;
+        max-width: 100%;
+        max-height: 100%;
+        margin: .5em .5em 0 1.06em;
+    }
+/* Portfolio */
+
+    .gallery-image {
+        float: none;
+        width: 100%;
+    }
+
+    .gallery-image img {
+        width: 100%;
+    }
+}
