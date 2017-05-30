@@ -3,7 +3,7 @@
 /*Header Styles*/   
     header {
         width: 100%;
-        margin: -2em -2em -1em -.35em;
+        margin: -2em -2em -2em -.35em;
         padding: 2em;
     }
 
@@ -11,7 +11,7 @@
         float: left;
         padding: .5em 1.5em .5em .5em;
         width: 29%;
-        margin: 0 0 0 2em;
+        margin: 0 0 -1em 2em;
     }
 
 /* Navigation */
@@ -64,7 +64,7 @@
         text-align: center;
         width: 100%;
         padding: 0;
-        margin: -2em 0 -1em 0;
+        margin: -2em 0 -1.25em 0;
         height: auto;
         padding: 2em;
     }
@@ -84,7 +84,7 @@
     }
     nav li {
         padding: .1em .4em;
-        margin: -1.25em .75em 0 -.25em;
+        margin: -.35em .5em -.2em -.25em;
     }
 
 

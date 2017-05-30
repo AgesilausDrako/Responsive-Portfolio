@@ -123,10 +123,6 @@ nav a {
     border-bottom: 2px solid #dddddd;
  }
 
- p {
-    padding: 5px;
-    margin-left: 10px;
- }
 
 /* Profile Image Styles */
 #profile-image {
@@ -173,7 +169,8 @@ footer {
 }
 
 .gallery-image p {
-    padding: 12px;
+    padding: 1.25em;
+    font-size: 1.5em;
     margin: 0;
     width: 93%;
     text-align: center;
