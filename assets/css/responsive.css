@@ -1,5 +1,112 @@
 /* Media Queries */
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 640px) {
+/* Header */
+    header {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        height: auto;
+        padding: 0;
+    }
+
+    #name {
+        float: left;
+        padding: .5em 1.5em .5em .5em;
+        width: 100%;
+        margin: 0;
+    }
+/* Navigation */
+    nav {
+       float: none;
+       font-size: .8em;
+       padding: 1em;
+    }
+
+    nav li {
+        padding: .25em .75em;
+        margin: -1.25em .75em 1em -.25em;
+    }
+/* Layout Styles */
+    #info-box, #connect-box {
+        float: left;
+        width: 90%;
+        margin: 2em;
+    }   
+/* Profile Image */
+    #profile-image {
+        float: none;
+        max-width: 100%;
+        max-height: 100%;
+        margin: .5em .5em 0 1.06em;
+    }
+/* Portfolio */
+
+    .gallery-image {
+        float: none;
+        width: 100%;
+    }
+
+    .gallery-image img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+/* Header Styles */ 
+    header {
+        text-align: center;
+        width: 100%;
+        margin: 0 0 .25em 0;
+        height: auto;
+        padding: 0;
+    }
+
+    #name {
+        float: left;
+        padding: 2%;
+        width: 40%;
+        margin: 0 0 0 1em;
+    }
+/* Navigation */
+    nav {
+        float: left;
+        margin: .5em 0 -1.5em 5em;
+    } 
+
+    nav li {
+        float: left;
+        padding: .25em;
+        font-size: .75em;
+    }
+    
+/* Layout Styles */
+    #info-box, #connect-box {
+        float: left;
+        width: 90%;
+        margin: 2em;
+    }
+
+    #profile-image {
+        float: left;
+        max-width: 25em;
+        max-height: 25em;
+        margin: .5em 1em 0 .5em;
+    }
+    /* Portfolio */
+
+    .gallery-image {
+        float: left;
+        width: 50%;
+        padding: 1em;
+    }
+
+    .gallery-image img {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 980px) {
 /*Header Styles*/   
     header {
         width: 100%;
@@ -16,8 +123,9 @@
 
 /* Navigation */
     nav {
+        float: right;
        text-align: center;
-       margin: .5em 0 0 -2em;
+       margin: .5em 0 -1.45em -2em;
     } 
 
 /* Layout Styles */
@@ -58,111 +166,51 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-/* Header Styles */ 
-    header {
-        text-align: center;
-        width: 100%;
-        padding: 0;
-        margin: -2em 0 -1.25em 0;
-        height: auto;
-        padding: 2em;
-    }
-
-    #name {
-        float: left;
-        padding: 2%;
-        width: 40%;
-        margin: 0 auto;
-    }
-/* Navigation */
-    nav { 
-       float: right;
-       font-size: .7em;
-       margin: 0;
-
-    }
-    nav li {
-        padding: .1em .4em;
-        margin: -.35em .5em -.2em -.25em;
-    }
-
-
+@media screen and (min-width: 1400px) {
 /* Layout Styles */
-    #info-box, #connect-box {
+    #info-box {
         float: left;
-        width: 90%;
-        margin: 2em;
+        width: 50%;
+        margin: 2em 2em 2em 7em;
+    }   
+
+    #connect-box {
+        float: left;
+        width: 21%;
+        margin: 2em 0 0 11em;
     }
 
     #profile-image {
         float: left;
-        max-width: 25em;
-        max-height: 25em;
-        margin: .5em 1em 0 .5em;
+        max-width: 50%;
+        margin: 1em 1em .25em 0;
     }
-    /* Portfolio */
+
+    .social-media li {
+        float: left;
+        display: inline-block;
+        padding: 1em;
+        margin: 0;
+    }
+
+/* Portfolio */
 
     .gallery-image {
         float: left;
         width: 50%;
-        padding: 1em;
     }
 
     .gallery-image img {
         width: 100%;
     }
+
+    .gallery-image p {
+        width: 100%;
+
 }
 
-@media screen and (max-width: 640px) {
-/* Header */
-    header {
-        text-align: center;
-        width: 100%;
-        margin: 0;
-        height: auto;
-        padding: 0;
-    }
 
-    #name {
-        float: left;
-        padding: .5em 1.5em .5em .5em;
-        width: 100%;
-        margin: 0;
-    }
-/* Navigation */
-    nav {
-       float: left;
-       font-size: .8em;
-       padding: 2em;
-       margin: 0 0 -2.5em 3em;
-    }
 
-    nav li {
-        padding: .25em .75em;
-        margin: -1.25em .75em 1em -.25em;
-    }
-/* Layout Styles */
-    #info-box, #connect-box {
-        float: left;
-        width: 90%;
-        margin: 2em;
-    }   
-/* Profile Image */
-    #profile-image {
-        float: none;
-        max-width: 100%;
-        max-height: 100%;
-        margin: .5em .5em 0 1.06em;
-    }
-/* Portfolio */
-
-    .gallery-image {
-        float: none;
-        width: 100%;
-    }
-
-    .gallery-image img {
-        width: 100%;
-    }
 }
+
+
