@@ -159,7 +159,7 @@ footer {
   margin: 0;
   padding: 0;
   display: block;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .gallery-image {
@@ -168,24 +168,25 @@ footer {
     margin-right: 0;
     padding: 0;
     display: inline;
+    position: relative;
 }
 
 .gallery-image img {
     padding: 0;
-    width: 93%;
+    width: 100%;
     height: 100%;
-    z-index: 1;
 }
 
 .gallery-image p {
-    padding: 1.25em;
-    font-size: 1.5em;
+    padding: 1em;
+    font-size: 1.25em;
     margin: 0;
-    width: 93%;
+    width: 100%;
     text-align: center;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin-top: -4em;
+    position: absolute;
+    bottom: 2em;
 }
 
 /* Contact Page */
